@@ -1126,7 +1126,7 @@
           id="contactForm"
           name="contactUS"
           method="POST"
-          action="/thank-you/"
+          action="/"
           data-netlify="true"
           netlify-honeypot="bot-field"
         >
@@ -1222,10 +1222,16 @@
             Send Message
           </button>
           <p
+            id="contactSuccess"
+            class="hidden mt-3 rounded-lg border border-emerald-500/40 bg-emerald-500/10 px-4 py-3 text-sm text-emerald-300"
+          >
+            Your message has been sent successfully.
+          </p>
+          <p
             id="contactHelper"
             class="mt-2 text-sm text-[#b0b2c3]"
           >
-            On the live site, this submits and takes you to a short confirmation page.
+            Messages are sent through the contact form here.
           </p>
         </form>
       </div>
@@ -1376,6 +1382,67 @@
     document.getElementById('first-project').scrollIntoView({
       behavior: 'smooth',
       block: 'start'
+    });
+  });
+</script>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const contactForm = document.getElementById('contactForm');
+    const contactHelper = document.getElementById('contactHelper');
+    const contactSuccess = document.getElementById('contactSuccess');
+
+    if (!contactForm || !contactHelper || !contactSuccess) {
+      return;
+    }
+
+    const submitButton = contactForm.querySelector('button[type="submit"]');
+
+    function encodeFormData(formData) {
+      return new URLSearchParams(formData).toString();
+    }
+
+    contactForm.addEventListener('submit', async function(event) {
+      event.preventDefault();
+
+      contactSuccess.classList.add('hidden');
+      contactHelper.textContent = 'Sending your message...';
+      contactHelper.className = 'mt-2 text-sm text-[#b0b2c3]';
+
+      if (submitButton) {
+        submitButton.disabled = true;
+        submitButton.textContent = 'Sending...';
+        submitButton.classList.add('opacity-70', 'cursor-not-allowed');
+      }
+
+      try {
+        const formData = new FormData(contactForm);
+        const response = await fetch('/', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/x-www-form-urlencoded'
+          },
+          body: encodeFormData(formData)
+        });
+
+        if (!response.ok) {
+          throw new Error('Form submission failed');
+        }
+
+        contactForm.reset();
+        contactSuccess.classList.remove('hidden');
+        contactHelper.textContent = 'Thanks. Your message was sent.';
+        contactHelper.className = 'mt-2 text-sm text-emerald-300';
+      } catch (error) {
+        contactHelper.innerHTML = 'Something went wrong here. Please use the email icon or email me directly at <a href="https://mail.google.com/mail/?view=cm&fs=1&to=yashsachdev007@gmail.com" target="_blank" rel="noopener noreferrer" class="text-[#23b9eb] underline">yashsachdev007@gmail.com</a>.';
+        contactHelper.className = 'mt-2 text-sm text-rose-300';
+      } finally {
+        if (submitButton) {
+          submitButton.disabled = false;
+          submitButton.textContent = 'Send Message';
+          submitButton.classList.remove('opacity-70', 'cursor-not-allowed');
+        }
+      }
     });
   });
 </script>
