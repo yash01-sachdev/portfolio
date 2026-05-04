@@ -1,0 +1,32 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="900" rx="48" fill="url(#bg)"/>
+  <rect x="96" y="88" width="1408" height="724" rx="36" fill="#10131B" stroke="rgba(248,250,252,0.16)" stroke-width="4"/>
+  <text x="164" y="188" fill="#F8FAFC" font-family="Segoe UI, Arial, sans-serif" font-size="62" font-weight="700">Fatigue Detection</text>
+  <text x="165" y="238" fill="#FDE68A" font-family="Segoe UI, Arial, sans-serif" font-size="28">Real-time webcam drowsiness monitoring</text>
+  <rect x="156" y="300" width="544" height="404" rx="34" fill="#0B0F17"/>
+  <rect x="812" y="300" width="540" height="404" rx="34" fill="#0F172A"/>
+  <circle cx="428" cy="500" r="134" fill="#111827" stroke="#38BDF8" stroke-width="8"/>
+  <circle cx="388" cy="472" r="22" fill="#0F172A"/>
+  <circle cx="468" cy="472" r="22" fill="#0F172A"/>
+  <path d="M344 560C372 526 400 508 428 508C456 508 484 526 512 560" stroke="#F59E0B" stroke-width="10" stroke-linecap="round"/>
+  <path d="M350 450C370 420 406 402 428 402C450 402 486 420 506 450" stroke="#22C55E" stroke-width="8" stroke-linecap="round"/>
+  <rect x="864" y="350" width="436" height="76" rx="22" fill="#111827"/>
+  <text x="904" y="399" fill="#F8FAFC" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700">Driver Status</text>
+  <rect x="864" y="458" width="270" height="104" rx="28" fill="#14532D"/>
+  <text x="918" y="524" fill="#DCFCE7" font-family="Segoe UI, Arial, sans-serif" font-size="44" font-weight="700">ALERT</text>
+  <rect x="1160" y="458" width="140" height="104" rx="28" fill="#1E293B"/>
+  <text x="1194" y="523" fill="#F8FAFC" font-family="Segoe UI, Arial, sans-serif" font-size="34">0.31</text>
+  <rect x="864" y="598" width="160" height="42" rx="18" fill="#1F2937"/>
+  <text x="904" y="626" fill="#CBD5E1" font-family="Segoe UI, Arial, sans-serif" font-size="22">MediaPipe</text>
+  <rect x="1044" y="598" width="154" height="42" rx="18" fill="#1F2937"/>
+  <text x="1088" y="626" fill="#CBD5E1" font-family="Segoe UI, Arial, sans-serif" font-size="22">EAR</text>
+  <rect x="1218" y="598" width="150" height="42" rx="18" fill="#1F2937"/>
+  <text x="1249" y="626" fill="#CBD5E1" font-family="Segoe UI, Arial, sans-serif" font-size="22">Webcam</text>
+  <defs>
+    <linearGradient id="bg" x1="86" y1="74" x2="1498" y2="826" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1020"/>
+      <stop offset="0.58" stop-color="#111827"/>
+      <stop offset="1" stop-color="#B45309"/>
+    </linearGradient>
+  </defs>
+</svg>

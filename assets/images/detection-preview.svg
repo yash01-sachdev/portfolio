@@ -1,0 +1,40 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="900" rx="48" fill="url(#bg)"/>
+  <rect x="92" y="84" width="1416" height="732" rx="36" fill="#0C1017" stroke="rgba(96,165,250,0.22)" stroke-width="4"/>
+  <rect x="132" y="126" width="268" height="648" rx="28" fill="#111827"/>
+  <rect x="438" y="126" width="1032" height="88" rx="28" fill="#111827"/>
+  <rect x="438" y="242" width="486" height="258" rx="30" fill="#131E2D"/>
+  <rect x="950" y="242" width="520" height="258" rx="30" fill="#131E2D"/>
+  <rect x="438" y="526" width="1032" height="248" rx="30" fill="#111827"/>
+  <text x="488" y="180" fill="#E5E7EB" font-family="Segoe UI, Arial, sans-serif" font-size="56" font-weight="700">Detection AI</text>
+  <text x="1082" y="180" fill="#60A5FA" font-family="Segoe UI, Arial, sans-serif" font-size="28">Surveillance Dashboard</text>
+  <rect x="486" y="292" width="390" height="160" rx="22" fill="#0B1320"/>
+  <circle cx="560" cy="372" r="26" fill="#2563EB"/>
+  <circle cx="718" cy="342" r="48" fill="#1E293B" stroke="#F59E0B" stroke-width="8"/>
+  <circle cx="778" cy="358" r="34" fill="#1E293B" stroke="#34D399" stroke-width="8"/>
+  <circle cx="824" cy="314" r="22" fill="#1E293B" stroke="#60A5FA" stroke-width="8"/>
+  <rect x="998" y="292" width="424" height="160" rx="22" fill="#0B1320"/>
+  <path d="M1038 404L1106 354L1168 384L1238 310L1310 338L1378 286" stroke="#38BDF8" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="1106" cy="354" r="9" fill="#38BDF8"/>
+  <circle cx="1238" cy="310" r="9" fill="#38BDF8"/>
+  <rect x="486" y="582" width="208" height="44" rx="20" fill="#172554"/>
+  <text x="532" y="611" fill="#93C5FD" font-family="Segoe UI, Arial, sans-serif" font-size="24">YOLOv8</text>
+  <rect x="714" y="582" width="214" height="44" rx="20" fill="#172554"/>
+  <text x="759" y="611" fill="#93C5FD" font-family="Segoe UI, Arial, sans-serif" font-size="24">FastAPI</text>
+  <rect x="948" y="582" width="232" height="44" rx="20" fill="#172554"/>
+  <text x="989" y="611" fill="#93C5FD" font-family="Segoe UI, Arial, sans-serif" font-size="24">PostgreSQL</text>
+  <rect x="1200" y="582" width="200" height="44" rx="20" fill="#172554"/>
+  <text x="1240" y="611" fill="#93C5FD" font-family="Segoe UI, Arial, sans-serif" font-size="24">Alerts</text>
+  <rect x="172" y="168" width="188" height="20" rx="10" fill="#334155"/>
+  <rect x="172" y="228" width="140" height="20" rx="10" fill="#1E3A8A"/>
+  <rect x="172" y="284" width="116" height="20" rx="10" fill="#334155"/>
+  <rect x="172" y="340" width="120" height="20" rx="10" fill="#334155"/>
+  <rect x="172" y="396" width="130" height="20" rx="10" fill="#334155"/>
+  <defs>
+    <linearGradient id="bg" x1="96" y1="72" x2="1508" y2="820" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#020617"/>
+      <stop offset="0.6" stop-color="#0F172A"/>
+      <stop offset="1" stop-color="#1D4ED8"/>
+    </linearGradient>
+  </defs>
+</svg>

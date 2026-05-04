@@ -1,0 +1,32 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="900" rx="48" fill="url(#bg)"/>
+  <rect x="96" y="88" width="1408" height="724" rx="36" fill="#07111E" stroke="rgba(147,197,253,0.28)" stroke-width="4"/>
+  <rect x="136" y="132" width="1328" height="72" rx="24" fill="#0E1D31"/>
+  <circle cx="188" cy="168" r="10" fill="#34D399"/>
+  <circle cx="224" cy="168" r="10" fill="#60A5FA"/>
+  <circle cx="260" cy="168" r="10" fill="#F59E0B"/>
+  <rect x="1128" y="146" width="286" height="44" rx="18" fill="#132943"/>
+  <text x="175" y="438" fill="#E2E8F0" font-family="Segoe UI, Arial, sans-serif" font-size="74" font-weight="700">RepWise AI</text>
+  <text x="176" y="494" fill="#7DD3FC" font-family="Segoe UI, Arial, sans-serif" font-size="30">AI form coach with real-time posture feedback</text>
+  <rect x="176" y="560" width="182" height="50" rx="25" fill="#0F2D45"/>
+  <text x="211" y="593" fill="#93C5FD" font-family="Segoe UI, Arial, sans-serif" font-size="24">TensorFlow.js</text>
+  <rect x="376" y="560" width="176" height="50" rx="25" fill="#0F2D45"/>
+  <text x="428" y="593" fill="#93C5FD" font-family="Segoe UI, Arial, sans-serif" font-size="24">React</text>
+  <rect x="570" y="560" width="212" height="50" rx="25" fill="#0F2D45"/>
+  <text x="617" y="593" fill="#93C5FD" font-family="Segoe UI, Arial, sans-serif" font-size="24">Pose Analysis</text>
+  <rect x="940" y="244" width="412" height="444" rx="34" fill="#081423" stroke="#19304B" stroke-width="3"/>
+  <rect x="982" y="292" width="328" height="208" rx="26" fill="#0F1E32"/>
+  <circle cx="1146" cy="394" r="86" fill="#0A1628" stroke="#38BDF8" stroke-width="10"/>
+  <circle cx="1146" cy="334" r="16" fill="#38BDF8"/>
+  <path d="M1146 350V430M1146 374L1098 406M1146 374L1194 406M1146 430L1112 484M1146 430L1180 484" stroke="#7DD3FC" stroke-width="12" stroke-linecap="round"/>
+  <rect x="982" y="536" width="156" height="20" rx="10" fill="#163250"/>
+  <rect x="982" y="572" width="278" height="20" rx="10" fill="#163250"/>
+  <rect x="982" y="608" width="236" height="20" rx="10" fill="#163250"/>
+  <defs>
+    <linearGradient id="bg" x1="96" y1="72" x2="1502" y2="818" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1020"/>
+      <stop offset="0.52" stop-color="#071A2D"/>
+      <stop offset="1" stop-color="#0E7490"/>
+    </linearGradient>
+  </defs>
+</svg>
