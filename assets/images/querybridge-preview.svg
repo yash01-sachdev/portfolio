@@ -1,0 +1,76 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="900" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#090909"/>
+      <stop offset="1" stop-color="#111111"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="70" y1="130" x2="1530" y2="790" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0d0d0d"/>
+      <stop offset="1" stop-color="#131313"/>
+    </linearGradient>
+    <linearGradient id="queryGlow" x1="1040" y1="688" x2="1455" y2="688" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#26387A"/>
+      <stop offset="1" stop-color="#171E42"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1600" height="900" rx="30" fill="url(#bg)"/>
+  <rect x="22" y="22" width="1556" height="856" rx="28" stroke="#1E1E1E" stroke-width="2"/>
+
+  <rect x="74" y="80" width="1452" height="748" rx="28" fill="url(#panel)" stroke="#242424"/>
+
+  <g>
+    <rect x="112" y="122" width="30" height="30" rx="8" fill="#181818" stroke="#2C2C2C"/>
+    <path d="M121 132H133M121 137H133M121 142H133" stroke="#D7D5CB" stroke-width="2" stroke-linecap="round"/>
+    <rect x="160" y="122" width="30" height="30" rx="8" fill="#181818" stroke="#2C2C2C"/>
+    <ellipse cx="175" cy="130" rx="6" ry="3.5" stroke="#D7D5CB" stroke-width="2"/>
+    <path d="M169 130V144C169 146 171.7 147.5 175 147.5C178.3 147.5 181 146 181 144V130" stroke="#D7D5CB" stroke-width="2"/>
+    <text x="208" y="146" fill="#FFF7E8" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="700">Query Bridge</text>
+
+    <rect x="356" y="108" width="108" height="44" rx="16" fill="#E8E1D6"/>
+    <text x="410" y="137" fill="#111111" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" text-anchor="middle">Query</text>
+    <text x="496" y="136" fill="#DDD3C0" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="600">Evals</text>
+
+    <rect x="1350" y="110" width="138" height="52" rx="16" fill="#101A0F" stroke="#1E6B3A"/>
+    <text x="1370" y="132" fill="#A7D993" font-family="Consolas, monospace" font-size="16" letter-spacing="2">GENAI READY</text>
+    <text x="1370" y="152" fill="#FFFFFF" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700">langgraph · qwen2.5:1.5b</text>
+  </g>
+
+  <text x="126" y="240" fill="#FBF7EE" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700">Describe your query</text>
+  <path d="M96 228L105 237L119 220" stroke="#FFF2D9" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <rect x="110" y="270" width="1380" height="92" rx="18" fill="#2A2A2A" stroke="#393939"/>
+  <text x="128" y="318" fill="#FFFFFF" font-family="Segoe UI, Arial, sans-serif" font-size="21">show all users</text>
+
+  <text x="110" y="420" fill="#E9E3D7" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">Database Type</text>
+  <rect x="110" y="442" width="1060" height="52" rx="16" fill="#242424" stroke="#373737"/>
+  <text x="130" y="475" fill="#FFF7E8" font-family="Segoe UI, Arial, sans-serif" font-size="20">SQLite</text>
+  <path d="M1140 463L1155 478L1170 463" stroke="#D8CCBC" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <rect x="110" y="536" width="1060" height="192" rx="22" fill="#10141E" stroke="#1F2940"/>
+  <text x="132" y="572" fill="#FFF7E8" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700">Live Database Link</text>
+  <text x="132" y="605" fill="#BBAE9C" font-family="Segoe UI, Arial, sans-serif" font-size="16">SQLite is already pointed at the bundled demo database.</text>
+  <text x="132" y="648" fill="#FFF7E8" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="700">SQLite Database File</text>
+  <rect x="132" y="666" width="1016" height="44" rx="14" fill="#171717" stroke="#333333"/>
+  <text x="150" y="694" fill="#6F6F6F" font-family="Segoe UI, Arial, sans-serif" font-size="16">E:/data/shop.db</text>
+
+  <rect x="132" y="746" width="1016" height="92" rx="16" fill="#182550" stroke="#3558AA"/>
+  <rect x="150" y="764" width="122" height="28" rx="14" fill="#0D8D4F"/>
+  <text x="211" y="783" fill="#EFFFF1" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="middle">Bundled demo database</text>
+  <text x="150" y="820" fill="#EDEDED" font-family="Segoe UI, Arial, sans-serif" font-size="18">Visible now: orders, users</text>
+  <text x="1086" y="783" fill="#FFFFFF" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700">2 tables</text>
+
+  <rect x="1188" y="580" width="174" height="66" rx="20" fill="url(#queryGlow)" stroke="#4556A8"/>
+  <text x="1275" y="622" fill="#FFF8F0" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" text-anchor="middle">Compare All Backends</text>
+  <rect x="1380" y="580" width="110" height="66" rx="20" fill="#EEE5D8"/>
+  <text x="1435" y="622" fill="#111111" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" text-anchor="middle">Run Query</text>
+
+  <rect x="110" y="780" width="126" height="54" rx="18" fill="#171717" stroke="#303030"/>
+  <text x="173" y="814" fill="#FFF7E8" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="700" text-anchor="middle">Test Connection</text>
+  <rect x="248" y="780" width="142" height="54" rx="18" fill="#EDE5D7"/>
+  <text x="319" y="814" fill="#111111" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="700" text-anchor="middle">Link Database</text>
+
+  <rect x="110" y="860" width="118" height="28" rx="14" fill="#102B6A"/>
+  <text x="169" y="879" fill="#CFE1FF" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="middle">LANGGRAPH</text>
+  <text x="242" y="879" fill="#CCC4B8" font-family="Segoe UI, Arial, sans-serif" font-size="16">Model: qwen2.5:3b</text>
+</svg>
